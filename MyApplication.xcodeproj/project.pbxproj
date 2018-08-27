@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC652C7F2133C2CE0046F27E /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC652C7E2133C2CE0046F27E /* customTableViewCell.m */; };
 		ECC331502132AB6800EBD59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC3314F2132AB6800EBD59A /* AppDelegate.m */; };
 		ECC331532132AB6800EBD59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC331522132AB6800EBD59A /* ViewController.m */; };
 		ECC331562132AB6800EBD59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC331542132AB6800EBD59A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC652C7D2133C2CE0046F27E /* customTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		EC652C7E2133C2CE0046F27E /* customTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 		ECC3314B2132AB6800EBD59A /* MyApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC3314E2132AB6800EBD59A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECC3314F2132AB6800EBD59A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				ECC331592132AB6A00EBD59A /* LaunchScreen.storyboard */,
 				ECC3315C2132AB6A00EBD59A /* Info.plist */,
 				ECC3315D2132AB6A00EBD59A /* main.m */,
+				EC652C7D2133C2CE0046F27E /* customTableViewCell.h */,
+				EC652C7E2133C2CE0046F27E /* customTableViewCell.m */,
 			);
 			path = MyApplication;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				ECC331532132AB6800EBD59A /* ViewController.m in Sources */,
 				ECC3315E2132AB6A00EBD59A /* main.m in Sources */,
+				EC652C7F2133C2CE0046F27E /* customTableViewCell.m in Sources */,
 				ECC331502132AB6800EBD59A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
